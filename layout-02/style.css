@@ -41,7 +41,7 @@ body {
 }
 
 .container-satisfacao h2 {
-  color: #212d59;
+  color: var(--azul);
   font-size: 18px;
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 caption {
-  color: #212d59;
+  color: var(--azul);
 }
 
 .button {
@@ -95,12 +95,12 @@ caption {
 }
 
 .container-agradecimento h2 {
-  color: #212d59;
+  color: var(--azul);
   font-size: 18px;
 }
 
 .container-agradecimento p {
-  color: #212d59;
+  color: var(--azul);
 }
 
 .container-agradecimento form {
@@ -115,7 +115,7 @@ textarea {
 }
 
 textarea::placeholder {
-  color: #212d59;
+  color: var(--azul);
 }
 
 .container-agradecimento button {
