@@ -1,0 +1,72 @@
+:root {
+  --laranja: #e28625;
+  --azul: #006971;
+  --verde: #004140;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 60vw;
+  height: 70vh;
+  color: white;
+  border-radius: 8px;
+}
+
+.anuncio {
+  width: 33.3333%;
+  padding: 48px;
+}
+
+.anuncio-laranja {
+  background-color: var(--laranja);
+  border-radius: 5px 0 0 5px;
+}
+
+.anuncio-azul {
+  background-color: var(--azul);
+}
+
+.anuncio-verde {
+  background-color: var(--verde);
+  border-radius: 0 5px 5px 0;
+}
+
+.anuncio img {
+  margin-bottom: 35px;
+}
+
+.anuncio h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.anuncio p {
+  font-size: 15px;
+  margin-bottom: 83px;
+}
+
+.anuncio button {
+  width: 146px;
+  height: 48px;
+  border-radius: 24px;
+}
+
+.button--laranja {
+  color: var(--laranja);
+}
+
+.button--azul {
+  color: var(--azul);
+}
+
+.button--verde {
+  color: var(--verde);
+}
