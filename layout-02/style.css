@@ -1,0 +1,124 @@
+:root {
+  --azul: #212d59;
+  --cinza-claro: #333333;
+  --cinza-escuro: #2f2d2c;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 58px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+}
+
+.fechar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.fechar:hover {
+  cursor: pointer;
+}
+
+.container-satisfacao {
+  width: 519px;
+  height: 471px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 86px 55px;
+  text-align: center;
+}
+
+.container-satisfacao h2 {
+  color: #212d59;
+  font-size: 18px;
+}
+
+.emojis-satisfacao {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.emojis-satisfacao figure {
+  display: flex;
+  flex-direction: column;
+}
+
+.emojis-satisfacao figure:hover {
+  cursor: pointer;
+}
+
+.emoji {
+  margin-bottom: 15px;
+}
+
+caption {
+  color: #212d59;
+}
+
+.button {
+  height: 55px;
+  border-radius: 5px;
+  background-color: var(--cinza-escuro);
+  color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button--close {
+  width: 208px;
+}
+
+.container-agradecimento {
+  width: 402px;
+  height: 374px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 45px 63px 35px;
+}
+
+.container-agradecimento h2 {
+  color: #212d59;
+  font-size: 18px;
+}
+
+.container-agradecimento p {
+  color: #212d59;
+}
+
+.container-agradecimento form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+textarea {
+  resize: none;
+  height: 20px;
+}
+
+textarea::placeholder {
+  color: #212d59;
+}
+
+.container-agradecimento button {
+  width: 134px;
+  height: 55px;
+}
