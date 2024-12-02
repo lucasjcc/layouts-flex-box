@@ -28,3 +28,21 @@
   font-style: normal;
   font-weight: 700;
 }
+
+.ibm-400 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ibm-600 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.ibm-700 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}

@@ -1,0 +1,66 @@
+:root {
+  --azul: #0c1727;
+  --rosa-claro: #f8f2fa;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #e8eef7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  width: 90vw;
+  height: 608px;
+  border-radius: 32px;
+  padding: 90px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  column-gap: 66px;
+}
+
+.container-artigos {
+  height: 328px;
+  display: flex;
+  gap: 15px;
+}
+
+article {
+  background-color: var(--rosa-claro);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 42px 50px 50px;
+}
+
+article img {
+  width: 66.59px;
+  border-radius: 50%;
+  border: 10px solid white;
+  margin-bottom: 13px;
+  background-color: white;
+}
+
+article h2 {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+article p {
+  margin-bottom: 38px;
+}
+
+article button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: var(--azul);
+  color: white;
+}
